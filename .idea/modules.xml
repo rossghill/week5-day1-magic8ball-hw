@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/week5-magic-eight-ball.iml" filepath="$PROJECT_DIR$/.idea/week5-magic-eight-ball.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MagicEight.iml" filepath="$PROJECT_DIR$/.idea/modules/MagicEight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MagicEight_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MagicEight_main.iml" group="MagicEight" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MagicEight_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MagicEight_test.iml" group="MagicEight" />
     </modules>
   </component>
 </project>
