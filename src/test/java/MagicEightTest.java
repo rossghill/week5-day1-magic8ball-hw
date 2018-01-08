@@ -16,4 +16,12 @@ public class MagicEightTest {
     public void hasPhrase() {
         assertEquals("REPLY HAZY, TRY AGAIN", MagicEight.shakeBall() );
     }
+
+    @Test
+    public void hasLengthOfThree() {
+        magicEight.addPhrase("REPLY HAZY, TRY AGAIN");
+        magicEight.addPhrase("DON'T COUNT ON IT");
+        magicEight.addPhrase("SIGNS POINT TO YES");
+        assertEquals(3, magicEight.getPhraseCount());
+    }
 }
